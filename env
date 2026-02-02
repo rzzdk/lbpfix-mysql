@@ -1,0 +1,73 @@
+# ===========================================
+# Database Configuration (MySQL)
+# ===========================================
+
+# Database Host
+DB_HOST=localhost
+
+# Database Port (default: 3306)
+DB_PORT=3306
+
+# Database Username
+DB_USER=zdevwnff_dbuser
+
+# Database Password (gunakan password yang kuat)
+DB_PASSWORD=jerapah5656
+
+# Database Name
+DB_NAME=zdevwnff_db
+
+# Connection Pool Size (default: 10)
+DB_POOL_SIZE=10
+
+# Max Idle Connections (default: 10)
+DB_MAX_IDLE=10
+
+# Idle Timeout in ms (default: 60000)
+DB_IDLE_TIMEOUT=60000
+
+# ===========================================
+# SSL Configuration (untuk production)
+# ===========================================
+
+# Enable SSL (true/false)
+DB_SSL=false
+
+# Reject unauthorized SSL certificates (true/false)
+DB_SSL_REJECT_UNAUTHORIZED=true
+
+# ===========================================
+# Application Configuration
+# ===========================================
+
+# Node Environment (development/production)
+NODE_ENV=development
+
+# Application Port
+PORT=3000
+
+# Base URL (untuk production, ganti dengan domain Anda)
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
+
+# ===========================================
+# Security Configuration
+# ===========================================
+
+# JWT Secret Key (gunakan string random yang panjang)
+JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
+
+# JWT Expiration Time (default: 7 hari)
+JWT_EXPIRES_IN=7d
+
+# Password Salt Rounds untuk bcrypt (default: 12)
+BCRYPT_SALT_ROUNDS=12
+
+# ===========================================
+# Session Configuration
+# ===========================================
+
+# Session Secret (gunakan string random yang panjang)
+SESSION_SECRET=your-session-secret-change-this-in-production
+
+# Session Max Age in ms (default: 7 hari)
+SESSION_MAX_AGE=604800000
